@@ -635,7 +635,8 @@ local.properties
 *.tfstate
 *.tfstate.backup
 *.plan
-
+# normally this should not git ignored, but for demo purposes, ignoring it
+.terraform.lock.hcl
 # Module directory
 .terraform/
 
@@ -661,3 +662,11 @@ notes.md
 /tmp
 test.json
 private.Makefile
+
+vendor
+config.yml
+tfenv.yml
+tflint.yml
+tfvalidate.yml
+*.gif
+
