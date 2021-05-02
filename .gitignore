@@ -669,4 +669,6 @@ tfenv.yml
 tflint.yml
 tfvalidate.yml
 *.gif
+.plan.out
+.plan.out.json
 
